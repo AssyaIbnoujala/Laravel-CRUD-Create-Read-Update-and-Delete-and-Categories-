@@ -16,7 +16,7 @@
 <body>
     <div class="container">
         <h1>Liste des Catégories</h1>
-        <a href="{{ route('categories.create') }}" class="btn btn-primary mb-3">Ajouter une Catégorie</a>
+        <a href="{{ route('categories.create') }}" class="btn btn-info mb-3">Ajouter une Catégorie</a>
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -29,7 +29,7 @@
                 <tr>
                     <td>{{ $category->name }}</td>
                     <td>
-                        <a href="{{ route('categories.edit', $category->id) }}" class="btn btn-sm btn-primary">Éditer</a>
+                        <a href="{{ route('categories.edit', $category->id) }}" class="btn btn-sm btn-success">Éditer</a>
                         <form method="POST" action="{{ route('categories.destroy', $category->id) }}" style="display: inline-block;">
                             @csrf
                             @method('DELETE')

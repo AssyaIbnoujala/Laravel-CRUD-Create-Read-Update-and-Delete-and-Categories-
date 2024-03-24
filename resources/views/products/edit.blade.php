@@ -41,6 +41,10 @@
             color: red;
             margin-top: 5px;
         }
+        h1 {
+            text-align: center;
+            margin: 20px;
+        }
     </style>
 </head>
 <body>
@@ -70,7 +74,7 @@
             <div class="error">{{ $message }}</div>
         @enderror
 
-        <button type="submit" class="btn btn-primary">Mettre à jour</button>
+        <button type="submit" class="btn btn-primary">Enregistrer</button>
     </form>
 </body>
 </html>
