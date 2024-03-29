@@ -1,0 +1,65 @@
+/* CSS for UserList component */
+.UserList {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .UserList button {
+    padding: 5px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  .UserList .edit{
+    background-color: #4CBB17;
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 2px;
+  }
+  .UserList .Add{
+    background-color: #40E0D0;
+    border-radius: 2px;
+  }
+  
+  .UserList button:hover {
+    background-color: #0056b3;
+  }
+  .UserList .Add:hover {
+    background-color: #0096FF;
+  }
+  
+
+  .UserList .edit:hover {
+    background-color: #0e5012;
+  }
+  
+  .UserList table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .UserList th, .UserList td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .UserList th {
+    background-color: #f2f2f2;
+  }
+  
+  .UserList td {
+    text-align: center;
+  }
+  
+  .UserList a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .UserList a:hover {
+    text-decoration: underline;
+  }
+  

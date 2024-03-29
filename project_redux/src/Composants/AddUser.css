@@ -1,0 +1,50 @@
+/* AddUser.css */
+
+.AddUserWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+}
+
+.AddUserForm {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px; 
+}
+.AddUserForm h2{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin:  0;
+    
+     
+}
+
+.AddUserLabel {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.AddUserInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.AddUserButton {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.AddUserButton:hover {
+    background-color: #0056b3;
+}
